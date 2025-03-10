@@ -4,13 +4,13 @@ import { Paper, Hidden, makeStyles } from "@material-ui/core";
 
 import TicketsManager from "../../components/TicketsManagerTabs";
 import Ticket from "../../components/Ticket";
+import MultivusNews from "../../components/MultivusNews/MultivusNews";
 
 import { QueueSelectedProvider } from "../../context/QueuesSelected/QueuesSelectedContext";
 import { AuthContext } from "../../context/Auth/AuthContext";
 import api from "../../services/api";
 
 import './ticketCustom.css';
-import multivus from '../../assets/multivus.png';
 
 const defaultTicketsManagerWidth = 550;
 const minTicketsManagerWidth = 404;
@@ -111,7 +111,7 @@ const TicketsCustom = () => {
 								<Paper square variant="outlined" className={classes.welcomeMsg}>
 									<div className="ntDiv">
 										<center>
-											<img src={multivus} width="280" alt="" />
+											<MultivusNews />
 											<span className={`ntSeguranca ${classes.ntSegurancaTKC}`}>
 												<svg viewBox="0 0 10 12" height="16" width="14" className="svgCadeadoTicket" preserveAspectRatio="xMidYMid meet" version="1.1">
 													<title>lock-small</title>

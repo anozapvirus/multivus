@@ -1,5 +1,5 @@
 # bewin
-<br>✅ Resolvido/Feito
+<br>✅ Resolvido/Feito teste
 <br>👨‍💻 Desenvolvendo
 
 ## Bugs identificados
