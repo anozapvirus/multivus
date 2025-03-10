@@ -1,6 +1,7 @@
-# Projeto de Sistema de Login e Chat Interno
-
-Este repositório contém o código-fonte e a documentação relacionada ao desenvolvimento de um sistema de login e chat interno, com foco em melhorias de usabilidade, segurança e funcionalidades adicionais.
+## ACESSANDO DIRETORIO DO INSTALADOR & INICIANDO INSTALAÇÕES ADICIONAIS (USAR ESTE COMANDO PARA SEGUNDA OU MAIS INSTALAÇÃO:
+```bash
+cd /root/instalandoprimeiravez && sudo chmod +x install_primaria && sudo ./install_primaria
+```
 
 ## Credenciais de Acesso
 - **Login**: multivus@gmail.com
