@@ -1,0 +1,56 @@
+.audio-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+}
+
+.audio-modal audio {
+    width: 100%;
+    max-width: 400px;
+}
+
+.rate-button {
+    margin-top: 8px;
+    margin-left: 5px;
+    position: relative;
+    top: -45px;
+}
+
+.transcribe-button {
+    margin-top: 16px;
+}
+
+.loading-container {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.transcription-container {
+    margin-top: 16px;
+    max-width: 400px;
+    word-wrap: break-word;
+}
+
+@media (max-width: 600px) {
+    .audio-modal {
+        padding: 8px;
+    }
+
+    .audio-modal audio {
+        width: 100%;
+    }
+
+    .rate-button {
+        font-size: 0.875rem;
+    }
+
+    .transcribe-button {
+        font-size: 0.875rem;
+    }
+
+    .transcription-container {
+        font-size: 0.875rem;
+    }
+}
