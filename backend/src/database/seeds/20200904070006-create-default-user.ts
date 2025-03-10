@@ -11,10 +11,10 @@ module.exports = {
       }, ['id']);
 
       if (!userExists) {
-        const passwordHash = await hash("mudar@321", 8);
+        const passwordHash = await hash("adm123", 8);
         return queryInterface.bulkInsert('Users', [{
           name: "Admin",
-          email: "admin@bewin.com",
+          email: "multivus@gmail.com",
           profile: "admin",
           passwordHash,
           companyId: 1,

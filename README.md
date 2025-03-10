@@ -1,40 +1,57 @@
-# bewin
-<br>✅ Resolvido/Feito teste
-<br>👨‍💻 Desenvolvendo
+# Projeto de Sistema de Login e Chat Interno
 
-## Bugs identificados
-**1. Página financeiro** 
-<br>Não identifiquei o problema mas não está funcionando a página de cobrança cobrança.
+Este repositório contém o código-fonte e a documentação relacionada ao desenvolvimento de um sistema de login e chat interno, com foco em melhorias de usabilidade, segurança e funcionalidades adicionais.
+
+## Credenciais de Acesso
+- **Login**: multivus@gmail.com
+- **Senha**: adm123
+
+## Status do Projeto
+- ✅ **Resolvido/Feito**: Testes concluídos.
+- 👨‍💻 **Desenvolvendo**: Funcionalidades em desenvolvimento.
+
+## Bugs Identificados
+### 1. Página Financeiro
+- **Descrição**: A página de cobrança não está funcionando corretamente.
+- **Status**: Problema ainda não identificado.
+
+## Layout e Melhorias
+### 1. Página Chat Interno (Intercom)
+- **Descrição**: Desenvolvimento iniciado para criar uma interface semelhante ao WhatsApp Web, para uso interno.
+- **Status**: Em andamento.
+
+### 2. Exibir Quantidade de Uso (Armazenamento)
+- **Descrição**: Implementação de uma funcionalidade para mostrar ao cliente a quantidade de uso de disco, permitindo cobranças adicionais por quota excedida.
+- **Status**: Em andamento.
+
+## Vulnerabilidades
+### 1. Exploit Socket.io
+- **Descrição**: Vulnerabilidade identificada publicamente através do repositório [allgod](https://github.com/allgood/WhaticketWebsocketExploit), que permite visualizar conversas sem estar logado.
+- **Responsável**: 👨‍💻 Murilo
+- **Status**: Em análise.
+
+## Próximas Melhorias e Bugs Visuais
+### ✅ Encaminhar Mensagem
+- **Descrição**: Bug de encaminhamento de mensagem resolvido. O checkbox estava difícil de selecionar, e ao pressionar ESC, todas as seleções eram removidas.
+- **Status**: Concluído.
+
+### Trocar Nome Tag > Etiquetas
+- **Descrição**: Alterar o nome de "Tag" para "Etiquetas" para ficar mais semelhante ao WhatsApp.
+- **Status**: Pendente.
+
+### Colocar Condicional no Flowbuilder
+- **Descrição**: Implementar uma condicional no Flowbuilder para enviar uma mensagem personalizada caso o usuário digite algo diferente do número do menu.
+- **Status**: Pendente.
+
+### Alterar Ícones do Menu
+- **Descrição**: Substituir os ícones do Material MUI 4/5 por SVGs personalizados para uma aparência mais única.
+- **Status**: Pendente.
+
+## Funcionalidades Não Testadas
+- **1. Typebot**
+- **2. DialogFlow**
+- **3. N8N**
+- **4. WebHook**
+- **5. OpenAI**
 
 
-## Layout | Melhorias
-**1. Página Chat Interno** (Itercom)
-<br>Foi iniciado o desenvolvimento para se assemelhar ao whatsapp web, para usar internamente.
-
-**2. Exibir quantidade de uso (armazenamento)**
-<br>Mostrar para o cliente quantidade de uso de disco. Assim será possível cobrar adicionalmente valor sobre quota excedida.
-
-
-## Vunerabilidade
-👨‍💻 <ins>Murilo</ins> - **1. Exbloit Socket.io** 
-<br>Foi identificado publicamente, essa vunerabilidade através do [repositório allgod](https://github.com/allgood/WhaticketWebsocketExploit) que é possível visualizar as conversas sem estar logado.
-
-## Próximas Melhorias / Bug's Visuais
-✅ **Encaminhar mensagem**
-<br>Foi resolvido o bug de encaminhar mensagem que o checkbox estava dificil de selecionar, e ao pressionar o ESC remove todas as seleções.
-
-**Trocar nome Tag > Etiquetas**
-<br>Para que possa ficar com o nome semelhante ao WhatsApp
-
-**Colocar condicional no Flowbuilder**
-<br>Ex.: Se o usuário digitar qualquer outra coisa que não o numero do menu, enviar uma mensagem que pode ser personalizada no flowbuilder.
-
-**Alterar icones do Menu**
-<br>Todos os icones são do Material MUI 4/5. Alterar para SVG personalizado para sair do "comum".
-
-## Não testado
-**1. Typebot**
-<br>**2. DialogFlow**
-<br>**3. N8N**
-<br>**4. WebHook**
-<br>**5. OpenAI**

@@ -5,7 +5,6 @@ import { Paper, Hidden, makeStyles } from "@material-ui/core";
 import TicketsManager from "../../components/TicketsManagerTabs";
 import Ticket from "../../components/Ticket";
 import MultivusNews from "../../components/MultivusNews/MultivusNews";
-
 import { QueueSelectedProvider } from "../../context/QueuesSelected/QueuesSelectedContext";
 import { AuthContext } from "../../context/Auth/AuthContext";
 import api from "../../services/api";
