@@ -1,6 +1,6 @@
 ## ACESSANDO DIRETORIO DO INSTALADOR & INICIANDO INSTALAÇÕES ADICIONAIS (USAR ESTE COMANDO PARA SEGUNDA OU MAIS INSTALAÇÃO:
 ```bash
-cd /root/instalandoprimeiravez && sudo chmod +x install_primaria && sudo ./install_primaria
+cd /root/multivus/instalandoprimeiravez && sudo chmod +x install_primaria && sudo ./install_primaria
 ```
 
 ## Credenciais de Acesso
